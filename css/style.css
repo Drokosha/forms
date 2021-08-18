@@ -1,0 +1,29 @@
+#formfields {
+	width: 500px;
+}
+.fieldtext {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 30px;
+}
+.field {
+	width: 200px;
+	height: 26px;
+	font-family: arial;
+	font-size: 18px;
+	color: #004e75;
+	border: 1px solid #9f9f9f;
+	align-self: center;
+	flex: 0 0 200px;
+	margin-left: auto;
+}
+.field:focus {
+	outline: none;
+}
+#fieldsubmit {
+	height: 50px;
+	text-align: center;
+	align-items: center;
+}
