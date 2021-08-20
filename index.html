@@ -3,12 +3,16 @@
 		<title>Формы</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/script.js"></script>
 	</head>
 	<body>
-		<form name="myform">
+		<form name="myform" onsubmit="return chek();">
 			<div id="formfields">
+				<div id="pop-up1">Заполните "Имя"</div>
 				<div class="fieldtext">Имя:<input type="text" class="field" name="firstname" value="" placeholder="Имя" /></div>
+				<div id="pop-up2">Заполните "Фамилия"</div>
 				<div class="fieldtext">Фамилия:<input type="text" class="field" name="lastname" value="" placeholder="Фамилия" /></div>
+				<div id="pop-up3">Заполните "Дата рождения"</div>
 				<div class="fieldtext">Дата рождения:<input type="text" class="field" name="birthdate" value="" placeholder="ДД.ММ.ГГГГ" /></div>
 				<div id="fieldsubmit"><input type="submit" value="Кнопка, чтобы нажать"></div>
 			</div>

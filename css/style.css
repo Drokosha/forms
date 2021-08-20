@@ -1,12 +1,30 @@
 #formfields {
 	width: 500px;
 }
+#pop-up1 {
+	height: 1px;
+	display: none;
+	justify-content: flex-end;
+	color: #B22222;
+}
+#pop-up2 {
+	height: 1px;
+	display: none;
+	justify-content: flex-end;
+	color: #B22222;
+}
+#pop-up3 {
+	height: 1px;
+	display: none;
+	justify-content: flex-end;
+	color: #B22222;
+}
 .fieldtext {
 	display: flex;
 	flex-flow: row;
 	justify-content: flex-start;
 	align-items: center;
-	height: 30px;
+	height: 60px;
 }
 .field {
 	width: 200px;
