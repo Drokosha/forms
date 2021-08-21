@@ -26,7 +26,7 @@
 	align-items: center;
 	height: 60px;
 }
-.field {
+.field_normal {
 	width: 200px;
 	height: 26px;
 	font-family: arial;
@@ -37,7 +37,21 @@
 	flex: 0 0 200px;
 	margin-left: auto;
 }
-.field:focus {
+.field_normal:focus {
+	outline: none;
+}
+.field_error {
+width: 200px;
+	height: 26px;
+	font-family: arial;
+	font-size: 18px;
+	color: #004e75;
+    border: 1px solid #FF0000;
+    align-self: center;
+	flex: 0 0 200px;
+	margin-left: auto;	
+}
+.field_error:focus {
 	outline: none;
 }
 #fieldsubmit {
