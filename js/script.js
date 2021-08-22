@@ -1,9 +1,10 @@
 window.onload = function() {
-	document.forms.myform[0].classList.remove("field_error");
-	document.forms.myform[1].classList.remove("field_error");
-	document.forms.myform[2].classList.remove("field_error");
+	document.forms.myform[0].onkeyup = onch;
+    document.forms.myform[1].onkeyup = onch;
+    document.forms.myform[2].onkeyup = onch;
+    document.forms.myform.onsubmit = chek;
        };
-			function onch () {
+		        function onch () {
 					if (document.forms.myform.firstname.value != "") {
 							document.getElementById('pop-up1').style.display = 'none';
 			        		document.forms.myform[0].classList.add("field_normal");
