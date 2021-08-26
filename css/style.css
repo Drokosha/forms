@@ -1,19 +1,19 @@
 #formfields {
 	width: 500px;
 }
-#pop-up1 {
+#firstname {
 	height: 1px;
 	display: none;
 	justify-content: flex-end;
 	color: #B22222;
 }
-#pop-up2 {
+#lastname {
 	height: 1px;
 	display: none;
 	justify-content: flex-end;
 	color: #B22222;
 }
-#pop-up3 {
+#birthdate {
 	height: 1px;
 	display: none;
 	justify-content: flex-end;
