@@ -41,7 +41,7 @@
 	outline: none;
 }
 .field_error {
-width: 200px;
+    width: 200px;
 	height: 26px;
 	font-family: arial;
 	font-size: 18px;
@@ -58,4 +58,11 @@ width: 200px;
 	height: 50px;
 	text-align: center;
 	align-items: center;
+
+
+}
+input[type=submit] {
+color: #000000;
+background-color: #9f9f9f;;
+border: 3px solid #ffa500;
 }
