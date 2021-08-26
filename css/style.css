@@ -3,7 +3,7 @@
 }
 #pop-up1 {
 	height: 1px;
-	id none;
+	display: none;
 	justify-content: flex-end;
 	color: #B22222;
 }

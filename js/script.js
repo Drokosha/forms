@@ -8,7 +8,7 @@ window.onload = function() {
 };
     function onch () {
 		if (this.value != "") {
-	        document.getElementById(this.pop-up).style.display = 'none';
+	        document.getElementById(this.getAttribute("pop-up")).style.display = 'none';
 			this.classList.add("field_normal");
 			this.classList.remove("field_error");
 		}
